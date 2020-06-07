@@ -11,7 +11,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	<flow name="hello-worldFlow" doc:id="794fe3d0-30d6-4b3c-a435-bad215d78161" >
 		<http:listener doc:name="Listener" doc:id="d9b947fe-d5b4-4bff-8f9e-190868f9db73" config-ref="HTTP_Listener_config" path="/hello-world"/>
 		<ee:transform doc:name="Transform Message" doc:id="270ef4fb-8c4f-4e4a-9e10-5d460b64f7f6" >
-			<ee:message >
+			<ee:message > 
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/java
 ---
