@@ -16,9 +16,9 @@
 
 		<app.runtime>4.2.2-hf2</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
-			<username>exceed007-4</username>
-			<password>Teju@123</password>  
-			<environment>SANDBOX</environment>
+			<username>exceed0071</username>
+			<password>Exceed0071</password>  
+			<environment>DEV</environment>
 			<workerType>MICRO</workerType>
 			<workers>1</workers>
 			<region>us-east-1</region>
