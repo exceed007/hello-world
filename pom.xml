@@ -16,6 +16,12 @@
 
 		<app.runtime>4.2.2-hf2</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+			<username>exceed007-4</username>
+			<password>Teju@123</password>  
+			<environment>SANDBOX</environment>
+			<workerType>MICRO</workerType>
+			<workers>1</workers>
+			<region>us-east-1</region>
 	</properties>
 
 	<build>
@@ -26,6 +32,16 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com/</uri>
+						<muleVersion>${app.runtime}</muleVersion>
+						<username>${username}</username>
+						<password>${password}</password>   							        <applicationName>${project.artifactId}</applicationName>
+						<environment>${environment}</environment>
+						<workerType>${workerType}</workerType>
+<workers> ${noOf.worker} </workers>
+<region> ${region} </region>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
