@@ -41,6 +41,7 @@
 						<workerType>${workerType}</workerType>
 <workers> ${noOf.worker} </workers>
 <region> ${region} </region>
+<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
