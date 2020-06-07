@@ -23,6 +23,6 @@ pipeline {
          echo " worker is  ${params.workerType}"
         bat 'mvn package deploy -DmuleDeploy -Dusername=${ANYPOINT_CREDENTIALS_USR} -Dpassword=${ANYPOINT_CREDENTIALS_PSW} -Denvironment=DEV -DworkerType=Micro -Dworkers=1 -Dregion=us-east-1'
       }
-    }
+    } 
   }
 }
