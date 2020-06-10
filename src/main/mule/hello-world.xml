@@ -20,5 +20,8 @@ output application/json
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="78df8336-0755-4932-bb08-5cc7bb281ffe" />
+		<logger message="Just info message: the payload was set" level="INFO" category="com.mulesoft.support.logging-levels-poc.info" doc:name="Logger INFO"/>
+<logger message="The payload is: #[payload]" level="DEBUG" category="com.mulesoft.support.logging-levels-poc.debug" doc:name="Logger DEBUG"/>
 	</flow>
 </mule>

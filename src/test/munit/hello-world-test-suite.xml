@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:munit="http://www.mulesoft.org/schema/mule/munit" xmlns:munit-tools="http://www.mulesoft.org/schema/mule/munit-tools"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xsi:schemaLocation="
+		http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
+		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
+	<munit:config name="hello-world-test-suite.xml" />
+	<munit:test name="hello-world-test-suite-hello-worldFlowTest" doc:id="b24630a3-8411-40f2-9010-5ad760a6989d" description="Test">
+		<munit:execution >
+			<flow-ref doc:name="Flow-ref to hello-worldFlow" doc:id="d8c95c0b-bddd-40b4-a528-d0d6b8737b9c" name="hello-worldFlow"/>
+		</munit:execution>
+	</munit:test>
+
+
+</mule>
