@@ -85,7 +85,7 @@
             <version>1.1.5</version>
             <classifier>mule-plugin</classifier>
         </dependency>
-		<dependency>
+	<!-- 	<dependency>
             <groupId>com.mulesoft.munit.utils</groupId>
             <artifactId>munit-dbserver-module</artifactId>
             <version>2.0.2</version>
@@ -96,9 +96,9 @@
             <artifactId>munit-ftpserver-module</artifactId>
             <version>2.0.2</version>
             <classifier>mule-plugin</classifier>
-        </dependency>
-           <dependency>
-	<groupId>com.mulesoft.munit</groupId>
+        </dependency> -->
+         <!--  <dependency>
+	 <groupId>com.mulesoft.munit</groupId>
 	<artifactId>munit-runner</artifactId>
 	<version>2.2.1</version>
 	<classifier>mule-plugin</classifier>
@@ -109,8 +109,8 @@
 	<artifactId>munit-tools</artifactId>
 	<version>2.2.1</version>
 	<classifier>mule-plugin</classifier>
-	<scope>test</scope>
-</dependency>
+	<scope>test</scope> 
+</dependency> -->
 <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
 <!-- <dependency>
     <groupId>org.apache.maven.plugins</groupId>
